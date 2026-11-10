@@ -106,4 +106,4 @@ core/
 - **Add documents:** edit the `docs` dictionary in `mcp_server.py`.
 - **Add a tool, resource or prompt:** add a function with `@mcp.tool`, `@mcp.resource` or `@mcp.prompt` in `mcp_server.py`.
 - **Check the server:** `uv run mcp_client.py` connects to the server and prints its tools.
-- **Not done yet:** a `summarize` prompt is planned but not written (see the TODO in `mcp_server.py`).
+- **Not done yet:** a `summarize` prompt is planned but not written.
